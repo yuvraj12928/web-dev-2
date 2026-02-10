@@ -203,31 +203,34 @@
 // },2000);
 
 
+// function finishhomework(callback){
+//     console.log("starting homework");
+//     setTimeout(()=>{
+//         console.log("homework done");
+//         callback();
+//     },2000);
+// }
 
+// function eatdinner(callback){
+//     console.log("starting dinner");
+//     setTimeout(()=>{
+//         console.log("dinner done");
+//         callback();
+//     },1500);
+// }
 
-function finishhomework(callback){
-    console.log("starting homework");
-    setTimeout(()=>{
-        console.log("homework done");
-        callback();
-    },2000);
-}
-
-function eatdinner(callback){
-    console.log("starting dinner");
-    setTimeout(()=>{
-        console.log("dinner done");
-        callback();
-    },1500);
-}
-
-function gooutplayground(){
-    console.log("going to the playground");
+// function gooutplayground(){
+//     console.log("going to the playground");
   
-}
+// }
 
-finishhomework(() => {
-    eatdinner(() => {
-        gooutplayground();
-    });
-});
+// finishhomework(() => {
+//     eatdinner(() => {
+//         gooutplayground();
+//     });
+// });
+
+
+
+
+
